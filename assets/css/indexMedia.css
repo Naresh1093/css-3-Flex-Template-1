@@ -1,0 +1,21 @@
+@media(max-width:992px){
+    header{
+        text-align: center;
+    }
+    .content{
+        flex-flow: column row;
+    }
+    header>nav>ul>li>{
+        display: block;
+    }
+    /*MARGIN AND PADDING*/
+.mx-100{
+    margin: auto 50px;
+}
+.my-100{
+    margin: auto 50px;
+}
+.my-50{
+    margin: 25px auto;
+}
+}

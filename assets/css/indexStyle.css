@@ -1,0 +1,162 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+/* margin and padding */
+.mx-100{
+    margin: auto 100px;
+}
+.my-100{
+    margin: 100px auto;
+}
+.my-50{
+    margin: 25px auto;
+}
+
+/* Header code  */
+header{
+    background-color: #1d2120;
+    padding: 20px;
+    border-bottom: 5px solid greenyellow;
+}
+header>nav>ul{
+    list-style: none;
+}
+header>nav>h1{
+    color: #fff;
+    font-size: 30px;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 10px;
+}
+header>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+header>nav>ul>li>a:hover{
+    color: #bbd33f;
+}
+/* flex  */
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.item{
+    flex: 1;
+}
+/* BANNER  */
+.banner{
+    background: #454545;
+    line-height: 2;
+}
+.banner img{
+    width: 100%;
+    border: 5px solid gray;
+    height: 480px;
+}
+.banner h1{
+    color: #fff;
+}
+.banner p{ color: dimgray;}
+.banner button{
+    padding: 10px 20px;
+    background-color: #bbd33f;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px ;
+}
+.banner button:hover{
+    color: red;
+}
+
+/* WELLCOME TO WEBSITE  */
+    .welcome-to-website{
+        line-height: 2;
+    }
+    .welcome-to-website h2{
+        margin-bottom: 20px;
+        border-bottom: 2px solid #bbd33f;
+    }
+    .welcome-to-website h2>span{
+        border-bottom: 5px solid #bbd33f;
+        padding: 10px;
+    }
+    .welcome-to-website p{
+        margin: 30px ;
+    }
+    .welcome-to-website p:last-child{
+        border-left: 5px solid pink;
+        padding: 10px;
+        height: 25%;
+        padding-top: 0%;
+    }
+    .welcome-to-website ul{
+        margin: auto auto 20px 50px;
+    }
+    .welcome-to-website .item:first-child{
+        flex: 3;
+    }
+    .welcome-to-website .item:last-child{
+        flex: 2;
+    }
+    .welcome-to-website .latest-news{
+        background-color: #ccc;
+    }
+    .welcome-to-website .latest-news>h3{
+        background-color: #1d2120;
+        color: #fff;
+        padding: 20px;
+    }
+    .latest-news .container{
+        padding: 10px 20px;
+    }
+    .latest-news .container>.item>img{
+        width: 100%;
+        background-color: #fff;
+        padding: 5px;
+        
+               
+    }
+    .latest-news .container>.item>.small{
+        color: grey;
+        font-size: 12px;
+        line-height: 1 !important;
+    }
+    .footer{
+        border-top:5px #20f908 solid;
+        background-color:#182522;
+        padding:20px;
+        }
+        .footer .item:first-child{
+            flex:1;
+        }
+        .footer .item:nth-child(2){
+            flex:1;
+        }
+        .footer .item:nth-child(3){
+            flex:1;
+        }
+        .footer .item:nth-child(4){
+            flex:1;
+        }
+        .footer .item:last-child{
+            flex:1;
+        }
+        .footer .item h4{
+            color:#fff;
+        }
+        .footer .item>ul{
+         color:#fff;
+        }
+        .footer{
+            text-align: center;
+        }
+
+    
